@@ -1,0 +1,11 @@
+services:
+  mysql:
+   build: ../
+   restart: always
+   environment:
+    - MYSQL_ROOT_PASSWORD=root
+   ports:
+    - '3006:3306'
+
+volumes:
+ mysqldata:     

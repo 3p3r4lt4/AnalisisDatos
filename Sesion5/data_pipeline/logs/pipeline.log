@@ -1,0 +1,39 @@
+2025-01-25 16:19:36,420 - INFO - conexion establecido correctamente
+2025-01-25 16:19:36,424 - INFO - archivo data/departments.csv leido correctamente
+2025-01-25 16:19:36,443 - INFO - archivo data/customers.csv leido correctamente
+2025-01-28 22:15:46,692 - INFO - conexion establecido correctamente
+2025-01-28 22:15:46,695 - INFO - archivo data/departments.csv leido correctamente
+2025-01-28 22:15:46,708 - INFO - archivo data/customers.csv leido correctamente
+2025-01-28 22:15:46,713 - INFO - archivo data/categories.csv leido correctamente
+2025-01-28 22:15:46,716 - INFO - archivo data/products.csv leido correctamente
+2025-01-28 22:16:38,704 - INFO - conexion establecido correctamente
+2025-01-28 22:16:38,707 - INFO - archivo data/departments.csv leido correctamente
+2025-01-28 22:16:38,726 - INFO - archivo data/customers.csv leido correctamente
+2025-01-28 22:16:38,734 - INFO - archivo data/categories.csv leido correctamente
+2025-01-28 22:16:38,739 - INFO - archivo data/products.csv leido correctamente
+2025-01-28 22:16:38,788 - INFO - archivo data/orders.csv leido correctamente
+2025-01-28 22:16:38,890 - INFO - archivo data/order_items.csv leido correctamente
+2025-01-28 22:16:38,915 - INFO - Recalculando order_item_subtotal 
+2025-01-28 22:29:33,813 - INFO - conexion establecido correctamente
+2025-01-28 22:29:33,815 - INFO - archivo data/departments.csv leido correctamente
+2025-01-28 22:29:33,828 - INFO - archivo data/customers.csv leido correctamente
+2025-01-28 22:29:33,833 - INFO - archivo data/categories.csv leido correctamente
+2025-01-28 22:29:33,836 - INFO - archivo data/products.csv leido correctamente
+2025-01-28 22:29:33,871 - INFO - archivo data/orders.csv leido correctamente
+2025-01-28 22:29:33,969 - INFO - archivo data/order_items.csv leido correctamente
+2025-01-28 22:29:33,990 - INFO - Recalculando order_item_subtotal 
+2025-01-28 22:32:37,827 - INFO - conexion establecido correctamente
+2025-01-28 22:32:37,829 - INFO - archivo data/departments.csv leido correctamente
+2025-01-28 22:32:37,830 - INFO - archivo data/categories.csv leido correctamente
+2025-01-28 22:32:37,843 - INFO - archivo data/customers.csv leido correctamente
+2025-01-28 22:32:37,851 - INFO - archivo data/products.csv leido correctamente
+2025-01-28 22:32:37,878 - INFO - archivo data/orders.csv leido correctamente
+2025-01-28 22:32:37,951 - INFO - archivo data/order_items.csv leido correctamente
+2025-01-28 22:32:37,970 - INFO - Recalculando order_item_subtotal 
+2025-01-28 22:32:38,023 - INFO - Datos cargados exitosamente a la tabla departments
+2025-01-28 22:32:38,030 - INFO - Datos cargados exitosamente a la tabla categories
+2025-01-28 22:32:38,626 - INFO - Datos cargados exitosamente a la tabla customers
+2025-01-28 22:32:38,692 - INFO - Datos cargados exitosamente a la tabla products
+2025-01-28 22:32:40,895 - INFO - Datos cargados exitosamente a la tabla orders
+2025-01-28 22:32:47,399 - INFO - Datos cargados exitosamente a la tabla order_items
+2025-01-28 22:32:47,399 - INFO - Pipeline de datos ejecutado exitosamente.

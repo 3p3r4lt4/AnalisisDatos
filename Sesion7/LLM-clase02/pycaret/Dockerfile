@@ -6,9 +6,9 @@ WORKDIR /app
 
 # Copia los archivos necesarios al contenedor
 COPY requirements.txt requirements.txt
-COPY app.py app.py
+# COPY streamlit_pycaret/app.py /app/app.py
 
-EXPOSE 8501
+# EXPOSE 8501
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
@@ -24,4 +24,4 @@ RUN echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root"]
 
 # Comando por defecto para ejecutar Streamlit
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]

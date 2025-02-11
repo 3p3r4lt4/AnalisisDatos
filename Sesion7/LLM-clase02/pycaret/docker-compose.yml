@@ -1,22 +1,26 @@
 version: "3.9"
-
 services:
   ml_project:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
     container_name: pycaret_env
     ports:
       - "8888:8888"
     volumes:
       - .:/app
+      - ./notebooks:/app/notebooks
     environment:
       - PYTHONUNBUFFERED=1
-
-  streamlit_app:
-    build: .
-    container_name: streamlit_pycaret
-    ports:
-      - "8501:8501"
-    volumes:
-      - .:/app
-    environment:
-      - PYTHONUNBUFFERED=1     
+  # streamlit:
+  #   build:
+  #     context: ./streamlit_pycaret  
+  #   restart: always
+  #   ports:
+  #     - "8501:8501"
+  #   volumes:
+  #     - ./streamlit_pycaret:/app  # Cambiado para usar la carpeta correcta  
+  #   working_dir: /app
+  #   command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+  #   environment:
+  #     - PYTHONUNBUFFERED=1
